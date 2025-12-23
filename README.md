@@ -99,6 +99,41 @@ The game is built using **Object-Oriented Programming (OOP)** principles:
 ## 🎯 How to Play
 
 1. Clone the repository:
-```bash
+'''bash
 git clone https://github.com/SiriWastaken/Who-Wants-to-Be-a-Millionaire-CLI-Edition.git
 cd Who-Wants-to-Be-a-Millionaire-CLI-Edition
+'''bash
+
+Compile the Java files:
+javac *.java
+
+
+Run the game:
+java Main
+
+
+Commands during the game:
+Answer a question: A, B, C, or D
+Check current money: cb
+Show lifelines menu: ll
+Use lifelines: 50, aud, phone
+
+📦 Project Structure
+Who-Wants-to-Be-a-Millionaire-CLI-Edition/
+├── Main.java # What you play: the frontend, where all of the methods (pieces of code that can be called (done) anywhere in the program) are incredibly helpful.)
+├── Questions.java     # Contains Question class & question bank - (i know you've been looking for this file.. CHEATER!)
+├── Lifelines.java     # Lifelines and ASCII cashboard - simple(ish) file.
+└── README.md          # You're looking at this right now!
+
+🔮 Future Enhancements
+JavaFX GUI for interactive play with visual lifelines. Visuals are always fun, right? 
+Sounds from the original TV showDynamic question loading from a file or from an API 👀. Also, it would fix a problem where you can look inside the code to find the answers. However, it would take you a while since the question order is random.
+Timer-based questions for an extra challenge
+High score leaderboard, maybe with multiplayer on LAN?????? (I'm a new programmer, so... unlikely, although it would be cool to come back to this after taking AP CS A)
+
+👏 Credits
+Inspired by the iconic TV game show Who Wants to Be a Millionaire?
+Created as a portfolio project to demonstrate Java OOP, arrays, and CLI interaction.
+
+⚡ License
+MIT License: Forking and looking at other repos are among the best ways to learn to program and get inspired for projects. Feel free to fork this repo!
